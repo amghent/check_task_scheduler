@@ -1,0 +1,1 @@
+Get-ChildItem -Path "C:\PythonApps\check_task_scheduler\logs" | Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-7) } | Remove-Item

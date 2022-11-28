@@ -1,0 +1,13 @@
+---
+
+name: check_task_scheduler
+version: 1.0.0
+
+mail:
+  server: mail.sidmar.be
+  port: 25
+  subject: One or more tasks has problems
+  text: There are one or more tasks in Windows Task Scheduler that have not met their last run time on machine
+  list_text: Task(s)
+  from: check_task_scheduler@arcelormittal.com
+  to: yves.vindevogel.external@arcelormittal.com
