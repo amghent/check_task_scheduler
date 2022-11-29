@@ -3,6 +3,8 @@
 name: check_task_scheduler
 version: 1.0.0
 
+cron: "*/15 6-20 * * 1-5"
+
 mail:
   server: mail.sidmar.be
   port: 25
